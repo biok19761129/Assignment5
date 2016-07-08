@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Assignment 5</title>
+        <link href="css/styles.css" type="text/css" rel="stylesheet">
+        
+         <!-- ******* STEP 5 ********* -->
+            <script type="text/javascript">
+                window.addEventListener("load", init, false);
+                function init(){
+                    var myButton5 = document.getElementById("buttonFive");
+                    myButton5.addEventListener("click", function() {alert("I have been clicked")}, false);
+                }
+            </script>
+        <!-- ******* END STEP 5 ********* -->
+        
+    </head>
+    
+<body>
+    <!-- ******* STEP 1 ********* -->
+    <input type="button" onclick="writeMessage()" value="Write Message Step 1"/><br/>
+    
+    
+     <!-- ******* STEP 2 ********* -->
+    <input type="button" id="buttonTwo" value="Write Message Step 2"/><br/>
+    
+    
+     <!-- ******* STEP 3 ********* -->
+    <input type="button" id="buttonThree" value="Write Message Step 3"/><br/>
+    
+    <!-- ******* STEP 4 ********* -->
+        <input type="button" id="buttonFour" value="Write Message Step 4"/><br/>
+           <script type="text/javascript">
+                var myButton4 = document.getElementById("buttonFour");
+                myButton4.addEventListener("click", function() {alert("I have been clicked")}, false);
+            </script>
+     <!-- ******* END STEP 4 ********* -->   
+     
+     
+      <!-- ******* STEP 5 (portion) ********* -->
+    <input type="button" id="buttonFive" value="Write Message Step 5"/><br/>
+    
+     <!-- ******* STEP 6 ********* -->
+    <a href="http://www.google.com" id="redirect">Visit Google</a><br/>
+    
+     <!-- ******* STEP 7 ********* -->
+    <textarea cols="20" rows="5" id="textArea" name=textArea placeholder="Type some text here"></textarea><br/>
+    <input type="button" id="buttonSeven" value="Write Message Step 7"/><br/>
+    
+    
+     <!-- ******* STEP 8 ********* -->
+    <input type="button" id="buttonEight" value="Go to New Window step 8"/><br/>
+    
+    
+     <!-- ******* STEP 9 ********* -->
+    <input type="button" id="buttonStart" value="Start"/>
+    <input type="button" id="buttonStop" value="Stop"/><br/>
+     
+
+     <!-- ******* STEP 10 ********* -->
+   <select id="selectTag">
+          <option id="item1">This is my item 1</option>
+          <option id="item2">This is my item 2</option>
+          <option id="item3">This is my item 3</option>
+          <option id="item4">This is my item 4</option>
+    </select><br/>
+        <input type="button" id="buttonList" value="Select"/>
+
+
+     <script src="js/scripts.js" type="text/javascript"></script>       
+    </body>
+</html>
